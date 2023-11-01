@@ -1,0 +1,57 @@
+h1{
+    background-color: aquamarine;
+  width: 100%;
+  text-align: center;
+}
+.addItems{
+    display: grid;
+    place-items: center;
+}
+input{
+    width: 500px;
+    height: 36px;
+    font-size: 21px;
+}
+.addBtn{
+    margin-top: 10px;
+    width: 78px;
+    height: 30px;
+}
+.items h3{
+    text-align: center;
+}
+.btn{
+    color: blue;
+    margin-left: 157px;
+}
+.notCompletedList{
+    padding-left: 52px;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+    border-radius: 15px;
+}
+.completedList{
+    padding-left: 52px;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+    border-radius: 15px;
+}
+@media only screen and (max-width: 550px){
+.addItems{
+    background: aqua;
+  width: auto;
+  text-align: center;
+}
+input{
+    height: 27px;
+  font-size: 21px;
+  width: auto;
+}
+}
+li{
+    margin-top: 20px;
+    height: 41px;
+    font-size: 24px;
+}
